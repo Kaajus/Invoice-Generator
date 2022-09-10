@@ -1,0 +1,35 @@
+.row-1{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+    /* margin-right: 50px; */
+}
+
+.address-row{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.third-row{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    /* margin-right: 50px; */
+}
+
+.fourth-row{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    /* margin-right: 50px; */
+}
+
+.right-padding-div{
+    display: flex;
+    padding-right: 20px;
+}
