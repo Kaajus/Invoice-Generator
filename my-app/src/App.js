@@ -7,7 +7,7 @@ function App() {
     <div>
 
       <div>
-        <Info /> {/* Stories Screen */} 
+        <Info /> {/* Stories Screen */}
       </div>
 
     </div>
