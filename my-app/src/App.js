@@ -9,6 +9,7 @@ function App() {
 
       <div>
         <Info /> {/* Stories Screen */}
+        <Countries /> {/* Company Information Boxes */}
       </div>
 
     </div>
