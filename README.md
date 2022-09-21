@@ -1,3 +1,1 @@
-"# Invoice-Generator"
-
-Hello
+"# Invoice-Generator" 
