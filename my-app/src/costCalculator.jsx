@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Info.css";
 
 function CostCalculator() {
-    console.count();
   const [lineItem, setLineItem] = useState("");
   const [description, setDescription] = useState("");
   const [quantity, setQuantity] = useState();
@@ -11,10 +10,6 @@ function CostCalculator() {
 
   const numberOfItems = (e) => {
     setLineItem(e.target.value);
-    
-      console.log("The lineItem is", lineItem);
-      console.log("The e.target.value of lineItem is", e.target.value);
-
   };
 
   const fillDescription = (e) => {
@@ -23,15 +18,11 @@ function CostCalculator() {
 
   const changeQuantity = (e) => {
     setQuantity(e.target.value);
-    console.log("e.target.value is for quantity is", e.target.value);
-    console.log("The actual quantity is", quantity);
   };
 
   const priceSet = (e) => {
     setIsSetPrice(true);
     setPrice(e.target.value);
-    console.log("Price is set");
-    console.log("The price is", price);
   };
 
  
