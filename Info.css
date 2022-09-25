@@ -29,7 +29,7 @@
     /* margin-right: 50px; */
 }
 
-.right-padding-div{
+.right-padding-div{ /* for space between first and second box*/
     display: flex;
     padding-right: 20px;
 }

@@ -1,0 +1,16 @@
+.timebar-body {
+  display: flex;
+  justify-content: center; /* used for alignment */
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.timebar-1,
+.timebar-2 {
+  background-color: grey;
+  border: 1px #ccc solid;
+  width: 500px;
+  height: 2.5px;
+  margin-right: 5px;
+}
